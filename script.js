@@ -95,8 +95,11 @@ var secret = {
 
 
             enc1 = this._keyStr.indexOf(input.charAt(i++));
+
             enc2 = this._keyStr.indexOf(input.charAt(i++));
+
             enc3 = this._keyStr.indexOf(input.charAt(i++));
+            
             enc4 = this._keyStr.indexOf(input.charAt(i++));
 
 
