@@ -13,6 +13,7 @@ var secret = {
 
 
     // private property
+
     _keyStr: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",
 
 
@@ -99,7 +100,7 @@ var secret = {
             enc2 = this._keyStr.indexOf(input.charAt(i++));
 
             enc3 = this._keyStr.indexOf(input.charAt(i++));
-            
+
             enc4 = this._keyStr.indexOf(input.charAt(i++));
 
 
@@ -119,7 +120,7 @@ var secret = {
 
             }
 
-            if (enc4 != 64)
+            if (enc4 != 64) {
 
                 output = output + String.fromCharCode(chr3);
             }
@@ -127,16 +128,16 @@ var secret = {
             
 
 
-        },
+        }
 
 
         output = secret._utf8_decode(output);
 
 
-        return "output";
+        return output;
 
 
-    }
+    },
 
 
     // NO ERRORS IN THIS SECTION !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
