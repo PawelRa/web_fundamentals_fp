@@ -24,7 +24,8 @@
           <div style="background-color: rgb(255,255,255,0.4)" class="p-3 shadow">
             <?php
                 if ($_POST["pws"] === base64_decode("VGgxNV8xNV81VFIwbjY") && $_POST["srt"] === "1352" && !empty($_POST["fName"])) {
-                  echo 'var div_1 = document.querySelector("#d1");<br>
+                  echo '<script>
+                  var div_1 = document.querySelector("#d1");<br>
                                   var div_2 = document.querySelector("#d2");<br>
                             var header = document.querySelector("#h");<br>
                             
@@ -61,7 +62,8 @@
                                 }<br>
                             }<br><br>
                             
-                            A1();';
+                            A1();
+                            </script>';
                 }
                 ?>
           </div>
