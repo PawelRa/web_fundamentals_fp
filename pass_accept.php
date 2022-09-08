@@ -24,7 +24,24 @@
           <div style="background-color: rgb(255,255,255,0.4)" class="p-3 shadow">
             <?php
                 if ($_POST["pws"] === base64_decode("VGgxNV8xNV81VFIwbjY") && $_POST["srt"] === "1352" && !empty($_POST["fName"])) {
-                  echo '<script>
+                  echo '
+                  
+                    <div id="d1" style="text-align: center; font-family: fantasy;">
+                        <div></div>
+                    </div>
+                    <div id="d2">
+                        <h1></h1>
+                    </div>
+                    <div id="h" style="color: rgb(255, 99, 71); transform: matrix(-1, 0, 0, -1, 0, 0);">
+
+                    </div>
+                    <div>
+                        <Math></Math>
+                    </div>
+
+                    
+
+                 <script>
                   var div_1 = document.querySelector("#d1");
                                   var div_2 = document.querySelector("#d2");
                             var header = document.querySelector("#h");
@@ -57,15 +74,17 @@
                                 if (div_style["textAlign"] === "center" && div_style["fontFamily"] === "fantasy") {
                                     console.log("Just one more step");
                                     if (header_style.color === "rgb(255, 99, 71)" && header_style.transform === "matrix(-1, 0, 0, -1, 0, 0)") {
-                                        alert("AMAZING YOU DID IT !!!");
+                                        console.log("AMAZING YOU DID IT !!!");
                                     }
                                 }
                             }
                             
                             A1();
+                            A2(265.986)
                             </script>';
                 }
                 ?>
+                
           </div>
       </div>      
   </div>
