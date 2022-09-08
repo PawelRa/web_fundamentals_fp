@@ -25,42 +25,42 @@
             <?php
                 if ($_POST["pws"] === base64_decode("VGgxNV8xNV81VFIwbjY") && $_POST["srt"] === "1352" && !empty($_POST["fName"])) {
                   echo '<script>
-                  var div_1 = document.querySelector("#d1");<br>
-                                  var div_2 = document.querySelector("#d2");<br>
-                            var header = document.querySelector("#h");<br>
+                  var div_1 = document.querySelector("#d1");
+                                  var div_2 = document.querySelector("#d2");
+                            var header = document.querySelector("#h");
                             
-                            var div_style = window.getComputedStyle(div_1);<br>
-                            var header_style = window.getComputedStyle(header);<br>
+                            var div_style = window.getComputedStyle(div_1);
+                            var header_style = window.getComputedStyle(header);
                         
-                            function A1() {<br>
-                                if (div_1.children[0].nodeName === "DIV") {<br>
-                                    console.log("You nailed it !");<br>
-                                    if (div_2.children[0].nodeName === "H1") {<br>
-                                        div_2.children[0].innerHTML = "This is correct too!";<br>
-                                        A3();<br>
-                                    }<br>
-                                }<br>
-                            }<br>
-                            <br><br>
-                            function A2(params) {<br>
-                                if ((params / (10 % 4)) === 132.993) {<br>
-                                    var m = document.querySelector("Math");<br>
-                                    m.innerHTML = "Set Text In Here :";<br>
-                                    var arr = [m];<br>
-                                    arr.push("Element");<br>
-                                    arr.push("Second Element");<br>
-                                    m.addEventListener("click", A2(arr));<br>
-                                }<br>
-                            }<br>
-                            <br><br>
-                            function A3() {<br>
-                                if (div_style["textAlign"] === "center" && div_style["fontFamily"] === "fantasy") {<br>
-                                    console.log("Just one more step");<br>
-                                    if (header_style.color === "rgb(255, 99, 71)" && header_style.transform === "matrix(-1, 0, 0, -1, 0, 0)") {<br>
-                                        alert("AMAZING YOU DID IT !!!");<br>
-                                    }<br>
-                                }<br>
-                            }<br><br>
+                            function A1() {
+                                if (div_1.children[0].nodeName === "DIV") {
+                                    console.log("You nailed it !");
+                                    if (div_2.children[0].nodeName === "H1") {
+                                        div_2.children[0].innerHTML = "This is correct too!";
+                                        A3();
+                                    }
+                                }
+                            }
+                            
+                            function A2(params) {
+                                if ((params / (10 % 4)) === 132.993) {
+                                    var m = document.querySelector("Math");
+                                    m.innerHTML = "Set Text In Here :";
+                                    var arr = [m];
+                                    arr.push("Element");
+                                    arr.push("Second Element");
+                                    m.addEventListener("click", A2(arr));
+                                }
+                            }
+                            
+                            function A3() {
+                                if (div_style["textAlign"] === "center" && div_style["fontFamily"] === "fantasy") {
+                                    console.log("Just one more step");
+                                    if (header_style.color === "rgb(255, 99, 71)" && header_style.transform === "matrix(-1, 0, 0, -1, 0, 0)") {
+                                        alert("AMAZING YOU DID IT !!!");
+                                    }
+                                }
+                            }
                             
                             A1();
                             </script>';
