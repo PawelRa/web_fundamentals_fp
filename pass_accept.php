@@ -43,7 +43,7 @@
 
                  <script>
                   var div_1 = document.querySelector("#d1");
-                                  var div_2 = document.querySelector("#d2");
+                            var div_2 = document.querySelector("#d2");
                             var header = document.querySelector("#h");
                             
                             var div_style = window.getComputedStyle(div_1);
